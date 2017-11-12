@@ -1,5 +1,9 @@
 button:
   -
+    type: "click"
+    name: "我的活动"
+    key:  "BOOK_LUNCH"
+  -
     type: "view"
-    name: "wechat-starter"
-    url: "http://wechat-starter.ggrok.com"
+    name: "关于我们"
+    url: "http://mzctjkj.com"

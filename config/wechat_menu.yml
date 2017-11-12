@@ -1,0 +1,32 @@
+# More option see https://github.com/Eric-Guo/wechat#menu-create
+button:
+ -
+  name: "聚会"
+  sub_button:
+   -
+    type: "location_select"
+    name: "附近活动"
+    key: "BINDING_QR_CODE"
+   -
+    type: "click"
+    name: "推荐活动"
+    key:  "BOOK_LUNCH"
+   -
+    type: "click"
+    name: "搜索活动"
+    key:  "BOOK_DINNER"
+ -
+  name: "我的"
+  sub_button:
+   -
+    type: "click"
+    name: "进出记录"
+    key:  "BADGE_IN_OUT"
+   -
+    type: "click"
+    name: "年假余额"
+    key:  "ANNUAL_LEAVE"
+ -
+  type: "view"
+  name: "关于"
+  url:  "http://mzctjkj.com/"
